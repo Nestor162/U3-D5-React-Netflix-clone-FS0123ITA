@@ -6,6 +6,7 @@ const MainContent = () => (
   <>
     <Filters />
     <Container>
+      <h3 className="text-white">Trending</h3>
       <MovieCarousel />
     </Container>
   </>
