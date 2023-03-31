@@ -1,7 +1,7 @@
 ## Netflix in React
 
-**Oggi la tua sfida riguarderà il refactoring della homepage del tuo progetto Netflix in JavaScript (U2-W2-D5).  
-\*\***Dovrà diventare un’applicazione React con fetch dei dati da “The Open Movie Database”.\*\*
+**Oggi la tua sfida riguarderà il refactoring della homepage del tuo progetto Netflix in JavaScript (U2-W2-D5).
+Dovrà diventare un’applicazione React con fetch dei dati da “The Open Movie Database”.**
 
 Passaggi suggeriti:
 
