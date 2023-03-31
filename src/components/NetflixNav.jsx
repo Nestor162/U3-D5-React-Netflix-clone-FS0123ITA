@@ -28,21 +28,31 @@ const NetflixNav = () => (
         <Bell size={20}></Bell>
         <div className="dropdown">
           <NavDropdown title={<img src={avatar} alt="User Avatar" width="48px" />} id="basic-nav-dropdown">
-            <NavDropdown.Item href="#">
-              {" "}
+            <NavDropdown.Item className="text-light" href="#">
               <img src={kids} alt="User Avatar" width="48px" /> Kids
             </NavDropdown.Item>
-            <NavDropdown.Item href="#">Manage Profiles</NavDropdown.Item>
+            <NavDropdown.Item className="text-light" href="#">
+              Manage Profiles
+            </NavDropdown.Item>
 
             <hr className="dropdown-divider" />
 
-            <NavDropdown.Item href="#">Edit Profile</NavDropdown.Item>
-            <NavDropdown.Item href="#">Account</NavDropdown.Item>
-            <NavDropdown.Item href="#">Help Center</NavDropdown.Item>
+            <NavDropdown.Item className="text-light" href="#">
+              Edit Profile
+            </NavDropdown.Item>
+            <NavDropdown.Item className="text-light" href="#">
+              Account
+            </NavDropdown.Item>
+            <NavDropdown.Item className="text-light" href="#">
+              Help Center
+            </NavDropdown.Item>
 
             <hr className="dropdown-divider" />
 
-            <NavDropdown.Item href="#"> Sign out of netflixs</NavDropdown.Item>
+            <NavDropdown.Item className="text-light" href="#">
+              {" "}
+              Sign out of NETFLIX
+            </NavDropdown.Item>
           </NavDropdown>
         </div>
 
