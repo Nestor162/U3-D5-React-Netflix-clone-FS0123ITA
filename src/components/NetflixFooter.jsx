@@ -12,22 +12,22 @@ const NetflixFooter = () => (
       <Col xs={3}>
         <ul>
           <li className="lh-lg">
-            <a className="text-white-50" href="#">
+            <a className="text-white-50" href="#link">
               Audio and Subtitles
             </a>
           </li>
           <li className="lh-lg">
-            <a className="text-white-50" href="#">
+            <a className="text-white-50" href="#link">
               Media Center
             </a>
           </li>
           <li className="lh-lg">
-            <a className="text-white-50" href="#">
+            <a className="text-white-50" href="#link">
               Privacy
             </a>
           </li>
           <li className="lh-lg">
-            <a className="text-white-50" href="#">
+            <a className="text-white-50" href="#link">
               Contact us
             </a>
           </li>
@@ -41,17 +41,17 @@ const NetflixFooter = () => (
       <Col xs={3}>
         <ul>
           <li>
-            <a className="text-white-50 lh-lg" href="#">
+            <a className="text-white-50 lh-lg" href="#link">
               Audio Description
             </a>
           </li>
           <li>
-            <a className="text-white-50 lh-lg" href="#">
+            <a className="text-white-50 lh-lg" href="#link">
               Investor relations
             </a>
           </li>
           <li>
-            <a className="text-white-50 lh-lg" href="#">
+            <a className="text-white-50 lh-lg" href="#link">
               Legal notices
             </a>
           </li>
@@ -60,17 +60,17 @@ const NetflixFooter = () => (
       <Col xs={3}>
         <ul>
           <li>
-            <a className="text-white-50 lh-lg" href="#">
+            <a className="text-white-50 lh-lg" href="#link">
               Help Center
             </a>
           </li>
           <li>
-            <a className="text-white-50 lh-lg" href="#">
+            <a className="text-white-50 lh-lg" href="#link">
               Jobs
             </a>
           </li>
           <li>
-            <a className="text-white-50 lh-lg" href="#">
+            <a className="text-white-50 lh-lg" href="#link">
               Cookie Preferences
             </a>
           </li>
@@ -79,17 +79,17 @@ const NetflixFooter = () => (
       <Col xs={3}>
         <ul>
           <li>
-            <a className="text-white-50 lh-lg" href="#">
+            <a className="text-white-50 lh-lg" href="#link">
               Gift Cards
             </a>
           </li>
           <li>
-            <a className="text-white-50 lh-lg" href="#">
+            <a className="text-white-50 lh-lg" href="#link">
               Term of Use
             </a>
           </li>
           <li>
-            <a className="text-white-50 lh-lg" href="#">
+            <a className="text-white-50 lh-lg" href="#link">
               Corporate Information
             </a>
           </li>
