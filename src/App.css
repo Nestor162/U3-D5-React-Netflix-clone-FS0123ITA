@@ -10,3 +10,27 @@
 .dropdown-item:hover {
   color: #000 !important;
 }
+
+/* .ImgContainer {
+  width: 313px;
+  height: 176px;
+  background-color: red;
+  padding: 29px;
+  object-fit: contain;
+} */
+
+.ImgContainer {
+  width: 100%;
+  height: 0;
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.ImgCard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
