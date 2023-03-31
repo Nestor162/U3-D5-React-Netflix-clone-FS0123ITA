@@ -31,7 +31,8 @@ class MovieCards extends Component {
   render() {
     return (
       <>
-        {this.state.movies.map((movie, i) => (
+        <h3 className="text-white">Trending</h3>
+        {this.state.movies.slice(0, 6).map((movie, i) => (
           <div className="col-xl-2 col-md-4 pb-2 col-sm-6 px-1" key={i}>
             <div className="ImgContainer">
               <img className="img-fluid ImgCard" src={movie.Poster} alt={movie.title} />
