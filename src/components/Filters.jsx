@@ -47,7 +47,7 @@ const Filters = () => (
           </Dropdown.Menu>
         </Dropdown>
       </div>
-      <div id="filter-wrapper" class="d-flex align-items-center ">
+      <div id="filter-wrapper" className="d-flex align-items-center ">
         <span className="border border-light px-3 py-1">
           <FilterLeft color="white" size={20} />
         </span>
