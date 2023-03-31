@@ -24,7 +24,6 @@ class MovieCards extends Component {
 
   componentDidMount() {
     this.fetchMovies(this.props.query);
-    /*     this.fetchMovies("s=Gintama&type=Series"); */
   }
 
   render() {
