@@ -5,7 +5,7 @@ import kids from "../img/kids_icon.png";
 import { Search, Bell } from "react-bootstrap-icons";
 
 const NetflixNav = () => (
-  <Navbar expand="lg" bg="dark" variant="dark" className="px-4">
+  <Navbar expand="lg" variant="dark" className="px-4">
     <Container fluid>
       <Navbar.Brand href="#">
         <img src={logo} alt="Netflix Logo" width="148px" />
@@ -14,7 +14,9 @@ const NetflixNav = () => (
       <Navbar.Collapse id="mainNav">
         <Nav className="me-auto mb-2 mb-lg-0">
           <Nav.Link href="#">Home</Nav.Link>
-          <Nav.Link href="#"> TV Shows</Nav.Link>
+          <Nav.Link href="#" active>
+            TV Shows
+          </Nav.Link>
           <Nav.Link href="#">Movies</Nav.Link>
           <Nav.Link href="#">Recently Added</Nav.Link>
           <Nav.Link href="#">My List</Nav.Link>
