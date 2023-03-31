@@ -1,8 +1,8 @@
 import { Col, Row } from "react-bootstrap";
 
 const NetflixFooter = () => (
-  <footer className="container mt-big">
-    <div className="ms-2rem mb-2">
+  <footer className="container mt-3 pb-5">
+    <div className="ms-4">
       <i className="bi bi-facebook fs-4 me-3 text-white-50" />
       <i className="bi bi-instagram fs-4 me-3 text-white-50" />
       <i className="bi bi-twitter fs-4 me-3 text-white-50" />
@@ -96,7 +96,7 @@ const NetflixFooter = () => (
         </ul>
       </Col>
     </Row>
-    <p className="text-white-50 small ps-2rem">© 1997-2019 Netflix, inc. (i.OdOOfcda2fdt9cOde)</p>
+    <p className="text-white-50 small ps-4">© 1997-2019 Netflix, inc. (i.OdOOfcda2fdt9cOde)</p>
   </footer>
 );
 
