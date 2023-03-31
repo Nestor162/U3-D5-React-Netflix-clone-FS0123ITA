@@ -1,5 +1,4 @@
 import { Component } from "react";
-import { Row } from "react-bootstrap";
 
 class MovieCards extends Component {
   state = {
@@ -31,7 +30,7 @@ class MovieCards extends Component {
 
   render() {
     return (
-      <Row>
+      <>
         {this.state.movies.map((movie, i) => (
           <div className="col-xl-2 col-md-4 pb-2 col-sm-6 px-1" key={i}>
             <div className="ImgContainer">
@@ -39,7 +38,7 @@ class MovieCards extends Component {
             </div>
           </div>
         ))}
-      </Row>
+      </>
     );
   }
 }
