@@ -50,7 +50,6 @@ const NetflixNav = () => (
             <hr className="dropdown-divider" />
 
             <NavDropdown.Item className="text-light" href="#">
-              {" "}
               Sign out of NETFLIX
             </NavDropdown.Item>
           </NavDropdown>
