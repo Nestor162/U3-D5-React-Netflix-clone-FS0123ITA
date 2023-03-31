@@ -18,13 +18,12 @@ class MovieCards extends Component {
       })
       .then(data => {
         this.setState({ isLoading: false, movies: data.Search });
-        console.log(data.Search);
       })
       .catch(error => this.setState({ errorMsg: error.message, error: true, isLoading: false }));
   };
 
   componentDidMount() {
-    this.fetchMovies("s=one%20piece");
+    this.fetchMovies(this.props.query);
     /*     this.fetchMovies("s=Gintama&type=Series"); */
   }
 
