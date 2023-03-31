@@ -1,4 +1,5 @@
 import { Component } from "react";
+import { Spinner } from "react-bootstrap";
 
 class MovieCards extends Component {
   state = {
@@ -29,6 +30,12 @@ class MovieCards extends Component {
   render() {
     return (
       <>
+        {this.state.isLoading && !this.state.error && (
+          <div className="customSpinner">
+            <Spinner animation="border" variant="danger" />
+          </div>
+        )}
+
         {this.state.movies.slice(0, 6).map((movie, i) => (
           <div className="col-xl-2 col-md-4 pb-2 col-sm-6 px-1" key={i}>
             <div className="ImgContainer">
