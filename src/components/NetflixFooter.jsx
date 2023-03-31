@@ -1,12 +1,13 @@
 import { Col, Row } from "react-bootstrap";
+import { Facebook, Instagram, Youtube, Twitter } from "react-bootstrap-icons";
 
 const NetflixFooter = () => (
   <footer className="container mt-3 pb-5">
-    <div className="ms-4">
-      <i className="bi bi-facebook fs-4 me-3 text-white-50" />
-      <i className="bi bi-instagram fs-4 me-3 text-white-50" />
-      <i className="bi bi-twitter fs-4 me-3 text-white-50" />
-      <i className="bi bi-youtube fs-4 me-3 text-white-50" />
+    <div className="ms-4 ps-2 mb-3 mt-5">
+      <Facebook className="fs-4 me-3 text-white-50" />
+      <Instagram className="fs-4 me-3 text-white-50" />
+      <Youtube className="fs-4 me-3 text-white-50" />
+      <Twitter className="fs-4 me-3 text-white-50" />
     </div>
     <Row>
       <Col xs={3}>
