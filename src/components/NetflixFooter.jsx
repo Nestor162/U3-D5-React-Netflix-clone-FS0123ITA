@@ -1,13 +1,15 @@
+import { Col, Row } from "react-bootstrap";
+
 const NetflixFooter = () => (
-  <footer className="footer-container mt-big">
+  <footer className="container mt-big">
     <div className="ms-2rem mb-2">
       <i className="bi bi-facebook fs-4 me-3 text-white-50" />
       <i className="bi bi-instagram fs-4 me-3 text-white-50" />
       <i className="bi bi-twitter fs-4 me-3 text-white-50" />
       <i className="bi bi-youtube fs-4 me-3 text-white-50" />
     </div>
-    <div className="row">
-      <div className="col-3">
+    <Row>
+      <Col xs={3}>
         <ul>
           <li className="lh-lg">
             <a className="text-white-50" href="#">
@@ -35,8 +37,8 @@ const NetflixFooter = () => (
             </button>
           </li>
         </ul>
-      </div>
-      <div className="col-3">
+      </Col>
+      <Col xs={3}>
         <ul>
           <li>
             <a className="text-white-50 lh-lg" href="#">
@@ -54,8 +56,8 @@ const NetflixFooter = () => (
             </a>
           </li>
         </ul>
-      </div>
-      <div className="col-3">
+      </Col>
+      <Col xs={3}>
         <ul>
           <li>
             <a className="text-white-50 lh-lg" href="#">
@@ -73,8 +75,8 @@ const NetflixFooter = () => (
             </a>
           </li>
         </ul>
-      </div>
-      <div className="col-3">
+      </Col>
+      <Col xs={3}>
         <ul>
           <li>
             <a className="text-white-50 lh-lg" href="#">
@@ -92,8 +94,8 @@ const NetflixFooter = () => (
             </a>
           </li>
         </ul>
-      </div>
-    </div>
+      </Col>
+    </Row>
     <p className="text-white-50 small ps-2rem">© 1997-2019 Netflix, inc. (i.OdOOfcda2fdt9cOde)</p>
   </footer>
 );

@@ -1,6 +1,14 @@
 .App {
   background-color: #141414;
 }
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
 .dropdown-menu.show {
   position: absolute;
   left: -107px;
