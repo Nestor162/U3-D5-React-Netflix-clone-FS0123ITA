@@ -4,7 +4,7 @@ import { Row } from "react-bootstrap";
 
 function MovieCarousel(props) {
   return (
-    <Carousel interval={null}>
+    <Carousel interval={null} indicators={false}>
       <Carousel.Item>
         <Row>
           <MovieCards query={props.query} />
