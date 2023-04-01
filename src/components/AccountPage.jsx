@@ -14,7 +14,7 @@ export const AccountPage = () => (
             id="edit-icon"
             className="bg-dark border border-l rounded-circle p-2 position-absolute bottom-0 start-0 mb-2 ms-2 d-flex justify-content-center align-items-center"
           >
-            <PencilFill className="fs-smaller position-absolute" />
+            <PencilFill size={"10px"} className="position-absolute" />
           </div>
         </div>
         <Button type="button" className="btn-light btn-sm fs-6 mb-4 me-3 rounded-0 lett-spa fw-bold">
