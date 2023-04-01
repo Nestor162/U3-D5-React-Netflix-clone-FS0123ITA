@@ -3,6 +3,7 @@ import "./App.css";
 import NetflixNav from "./components/NetflixNav";
 import MainContent from "./components/MainContent";
 import NetflixFooter from "./components/NetflixFooter";
+/* import AccountPage from "./components/AccountPage"; */
 /* import SettingsPage from "./components/settingsPage"; */
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <NetflixNav />
       <MainContent />
       {/*   <SettingsPage /> */}
+      {/*       <AccountPage /> */}
       <NetflixFooter />
     </main>
   );

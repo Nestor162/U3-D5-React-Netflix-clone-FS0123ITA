@@ -50,3 +50,19 @@ ul {
 .ps-2rem {
   padding-left: 52px;
 }
+
+.custom-container {
+  max-width: 500px;
+  margin-inline: auto;
+}
+
+#custom-check {
+  background-color: transparent;
+  border: solid 2px gray;
+  padding: 10px;
+  margin-right: 7px;
+}
+
+.form-check-label {
+  max-width: 260px;
+}
